@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace asp_test.Infrastructure.Database
+namespace asp_test.Infrastructure.Database.Data
 {
     public partial class User
     {

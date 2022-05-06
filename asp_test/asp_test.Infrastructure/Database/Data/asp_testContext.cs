@@ -1,7 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
-using asp_test.Infrastructure.Database;
+﻿using System;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata;
 
-namespace asp_test.Infrastructure.Database
+namespace asp_test.Infrastructure.Database.Data
 {
     public partial class asp_testContext : DbContext
     {
