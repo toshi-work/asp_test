@@ -16,4 +16,8 @@
     </PackageReference>
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\asp_test.Infrastructure\asp_test.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>
