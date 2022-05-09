@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace asp_test.Application.Comments
+namespace asp_test.Domain
 {
-    public interface ICommentDataQuery
+    public interface IEntity
     {
     }
 }
