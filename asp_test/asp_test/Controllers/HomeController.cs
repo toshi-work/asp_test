@@ -1,4 +1,5 @@
 ﻿using asp_test.Models;
+using asp_test.Models.Data;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -15,6 +16,15 @@ namespace asp_test.Controllers
 
         public IActionResult Index()
         {
+            var context = new asp_testContext();
+
+            var comment = context.Comments.Find(1);
+            var ddd = context.Comments.Join(context.Users, c => c.Userid, u => u.Id, (comments, users) => new CommentUserViewModel 
+            {
+                Id = c.id,
+
+            })
+
             return View();
         }
 
